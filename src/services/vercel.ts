@@ -9,7 +9,7 @@ import {
 import { put, del, getDownloadUrl } from "@vercel/blob";
 import { randomUUID } from "crypto";
 import { createReadStream } from "fs";
-import { PassThrough, Readable } from "stream";
+import { PassThrough } from "stream";
 import fetch from "cross-fetch";
 
 export const config = {

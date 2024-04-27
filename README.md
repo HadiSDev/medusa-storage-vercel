@@ -33,7 +33,7 @@ npm install medusa-storage-vercel
 
 ```dotenv
 BLOB_READ_WRITE_TOKEN=<vercel_blob_secret_xxxxxxxxxx....>
-BUCKET_NAME=<bucket name>
+BUCKET_NAME=<bucket_name>
 ```
 
 3\. In `medusa-config.js` add the following at the end of the `plugins` array:
